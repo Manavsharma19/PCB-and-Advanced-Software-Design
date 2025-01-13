@@ -6,21 +6,27 @@ This project combines hardware design and software development for embedded syst
 
 **Key Features**
 
-**1. STM32 PCB Design  **
+**1. STM32 PCB Design**  
+
 Used KiCad to design a PCB based on STM32 microcontrollers.
 Process included component selection, schematic design, DRC checks, and Gerber file generation.
-**2. Java-Based C AST Interpreter  **  
+
+**2. Java-Based C AST Interpreter**
+
 Enhanced a Java interpreter to handle complex expressions, if, while, and for loops.
 Implemented ARM assembly code generation for control structures.
-3**. SD Card Firmware Operations**  
+
+**3. SD Card Firmware Operations**
 Developed commands for file system operations:
 ls to list files and sizes.
 cat to display file contents.
 mv to rename files.
 copy to duplicate files.
 Used QEMU to emulate SD card functionality.
+
 **4. Graphics Optimization**  
 Researched and implemented double buffering to reduce flicker and improve animation quality.
+
 **5. Emulator Design (GBA)**  
 Explored Game Boy Advance (GBA) architecture, including the ARM7tdmi processor, memory management, and display timing.
 Studied techniques for efficient firmware and emulator design.
